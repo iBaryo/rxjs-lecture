@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "producerConsumer": "ts-node src/producerConsumer.ts",
+    "observable": "ts-node src/observable.ts",
+    "operators": "ts-node src/operators.ts",
+    "highOrder": "ts-node src/highOrder.ts",
+    "subject": "ts-node src/subject.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rxjs": "^6.5.4",
-    "ts-node": "^8.7.0",
+    "rxjs": "^6.5.5",
+    "ts-node": "^8.10.1",
     "typescript": "^3.8.3"
   }
 }

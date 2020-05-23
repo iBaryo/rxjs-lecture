@@ -21,7 +21,7 @@
 	* map, tap, filter
 * High-order observables
 	* Observables of Observables
-	* [https://blog.angular-university.io/rxjs-higher-order-mapping/](strategies:)
+	* [strategies:](https://blog.angular-university.io/rxjs-higher-order-mapping/)
 		* concat: do things in sequence while waiting for completion
 		* merge: do things in parallel
 		* switch: when in need for cancellation logic of previous observable when then next one starts.
@@ -37,4 +37,4 @@
 		* AsyncSubject - only the last value of the Observable execution is sent to its observers, and only when the execution completes (similar to the `last` operator).
 
 
-* operator decision tree: https://rxjs-dev.firebaseapp.com/operator-decision-tree
+* [operator decision tree](https://rxjs-dev.firebaseapp.com/operator-decision-tree)
